@@ -2,9 +2,6 @@
 ######################################################################################
 ## Command=wget https://raw.githubusercontent.com/tarekzoka/ts-sateditor/main/installer.sh -O - | /bin/sh
 ##
-###########################################
-###########################################
-###########################################
 # my config script #
 
 MY_IPK_PY2="enigma2-plugin-extensions-ts-sateditor_3.3_py2_all"
