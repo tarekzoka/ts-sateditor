@@ -5,12 +5,23 @@
 ###########################################
 ###########################################
 #!/bin/sh
-echo
+#
 
-opkg install --force-overwrite  https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-ts-sateditor_3.3all.ipk?raw=true
+wget -O /tmp/tssat.tar.gz "https://onedrive.live.com/download?cid=A76863A4CA51DDF3&resid=A76863A4CA51DDF3%2135616&authkey=ALCQTMi1BQCkDRs"
+
+tar -xzf /tmp/*.tar.gz -C /
+
+wait
+
+rm -r /tmp/tssat.tar.gz
+
+
 
 sleep 2;
+
 exit 0
+
+
 MY_EM='============================================================================================================'
 #  Remove Old Plugin  #
 echo "   >>>>   Remove old version   "
