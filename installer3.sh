@@ -7,8 +7,8 @@
 
 # my config script #
 
-MY_IPK_PY2="enigma2-plugin-extensions-ts-sateditor_3.3_py2_all"
-MY_IPK_PY3="enigma2-plugin-extensions-ts-sateditor_3.3_py3_all"
+MY_IPK_PY2="enigma2-plugin-extensions-ts-sateditor_3.3_py2_all.ipk"
+MY_IPK_PY3="enigma2-plugin-extensions-ts-sateditor_3.3_py3_all.ipk"
 MY_URL="https://raw.githubusercontent.com/tarekzoka/ts-sateditor/main"
 PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])')
 
