@@ -45,7 +45,7 @@ rm -f /tmp/$MY_IPK_PY3
 echo ">>>>  SUCCESSFULLY INSTALLED <<<<"
 fi
 		echo "********************************************************************************"
-echo "   UPLOADED BY  >>>>   TAR_TAR " 
+echo "   UPLOADED BY  >>>>  TAREK_TT " 
 sleep 4;                         
 echo $MY_EM
 ###################                                                                                                                  
