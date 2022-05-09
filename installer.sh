@@ -7,7 +7,7 @@
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-ts-sateditor_3.3_py2_all.ipk?raw=true
+opkg install --force-overwrite  https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-ts-sateditor_3.3all.ipk?raw=true
 wait
 exit
 # my config script #
