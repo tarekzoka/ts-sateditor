@@ -1,20 +1,15 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tarekzoka/ts-sateditorl/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tar1971/feeds-finder/main/installer.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
 #!/bin/sh
 echo
 
-opkg install --force-overwrite  https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-ts-sateditor_3.3all.ipk?raw=true
-wait
-exit
-# my config script #
-
-MY_IPK_PY2="enigma2-plugin-extensions-ts-sateditor_3.3_py2_all.ipk"
-MY_URL=" https://raw.githubusercontent.com/tarekzoka/ts-sateditor/main"
-######################################################################################
+opkg install --force-overwrite  https://github.com/tar1971/feeds-finder/blob/main/feeds-finder_V1.6_py2_all.ipk?raw=true
+sleep 2;
+exit 0
 MY_EM='============================================================================================================'
 #  Remove Old Plugin  #
 echo "   >>>>   Remove old version   "
