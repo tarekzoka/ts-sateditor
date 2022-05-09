@@ -5,7 +5,7 @@
 # my config script #
 
 MY_IPK_PY2="enigma2-plugin-extensions-ts-sateditor_3.3_py2_all.ipk"
-MY_URL=" https://raw.githubusercontent.com/tarekzoka/ts-sateditor/blob/main/"
+MY_URL=" https://raw.githubusercontent.com/tarekzoka/ts-sateditor/raw/main/"
 ######################################################################################
 MY_EM='============================================================================================================'
 #  Remove Old Plugin  #
