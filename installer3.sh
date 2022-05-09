@@ -1,14 +1,14 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tar1971/feeds-finder-1/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tarekzoka/ts-sateditor/main/installer3.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
 
 # my config script #
 
-MY_IPK_PY2="feeds-finder_V1.6_py2_all.ipk"
-MY_IPK_PY3="feeds-finder_V1.6_py3_all.ipk"
+MY_IPK_PY2="enigma2-plugin-extensions-ts-sateditor_3.3_py2_all"
+MY_IPK_PY3="enigma2-plugin-extensions-ts-sateditor_3.3_py3_all"
 MY_URL="https://raw.githubusercontent.com/tar1971/feeds-finder-1/main"
 PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])')
 
@@ -17,7 +17,7 @@ MY_EM='=========================================================================
 #  Remove Old Plugin  #
 echo "   >>>>   Remove old version   "
 
-rm -r /usr/lib/enigma2/python/Plugins/Extensions/FeedsFinder
+rm -r /usr/lib/enigma2/python/Plugins/Extensions/TSsatEditor
 
 #################################
     
