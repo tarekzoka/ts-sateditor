@@ -1,7 +1,14 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tarekzoka/ts-sateditor/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tarekzoka/ts-sateditorl/main/installer.sh -O - | /bin/sh
 ##
+###########################################
+###########################################
+#!/bin/sh
+echo
+
+opkg install --force-overwrite  https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-dreamsatpanel_1.3_all.ipk?raw=true
+echo
 # my config script #
 
 MY_IPK_PY2="enigma2-plugin-extensions-ts-sateditor_3.3_py2_all.ipk"
