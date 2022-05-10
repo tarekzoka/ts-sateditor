@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tarekzoka/ts-sateditor/main/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tarekzoka/ts-sateditor/main/installer1.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
 #!/bin/sh
 #
 
-wget -O /tmp/tssat.tar.gz "https://onedrive.live.com/download?cid=A76863A4CA51DDF3&resid=A76863A4CA51DDF3%2135616&authkey=ALCQTMi1BQCkDRs"
+wget -O /tmp/tssat.tar.gz "https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-ts-sateditor_3.3.tar.gz?raw=true"
 
 tar -xzf /tmp/*.tar.gz -C /
 
