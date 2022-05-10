@@ -7,7 +7,7 @@
 #!/bin/sh
 #
 
-wget -O /hdd/ts-sateditor_3.3.tar.gz https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-ts-sateditor_3.3.tar.gz?raw=true
+wget -O /media/hdd/ts-sateditor_3.3.tar.gz https://github.com/tarekzoka/ts-sateditor/blob/main/enigma2-plugin-extensions-ts-sateditor_3.3.tar.gz?raw=true
 
 tar -xzf /tmp/*.tar.gz -C /
 
